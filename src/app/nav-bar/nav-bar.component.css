@@ -1,0 +1,32 @@
+.header-content{
+    background-color: #000000de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    margin: 0px;
+}
+.header-content > img {
+    margin-left: 50px;
+}
+.nav-content{
+    border: 1px solid red;
+    width: 50%;
+    margin: 5px;
+}
+
+.nav-content > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(187, 156, 19);
+}
+
+li > a:hover {
+    color: #fff;
+    transition: 0.3s;
+}
